@@ -1,11 +1,9 @@
-package com.example.demo;
+package edu.fisa.ce;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("edu.fisa.ce.controller")
 public class Step07CicdApplication {
 
 	public static void main(String[] args) {
